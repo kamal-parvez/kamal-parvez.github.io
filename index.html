@@ -220,6 +220,50 @@
                         <span class="skill-tag">JavaScript</span>
                         <span class="skill-tag">Bash/Shell Scripting</span>
                         <span class="skill-tag">x86 Assembly</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Agentic AI & LLMs</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">LangGraph</span>
+                        <span class="skill-tag">Orchestration</span>
+                        <span class="skill-tag">ReAct Tool Calling</span>
+                        <span class="skill-tag">MCP</span>
+                        <span class="skill-tag">Sandboxed Code Execution</span>
+                        <span class="skill-tag">Prompt Engineering</span>
+                        <span class="skill-tag">Claude Code</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>RAG</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Vector Embeddings</span>
+                        <span class="skill-tag">Weaviate</span>
+                        <span class="skill-tag">Arize Phoenix</span>
+                        <span class="skill-tag">OpenTelemetry</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Machine Learning & Statistics</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">scikit-learn</span>
+                        <span class="skill-tag">Linear Regression</span>
+                        <span class="skill-tag">Random Forest</span>
+                        <span class="skill-tag">CatBoost</span>
+                        <span class="skill-tag">LightGBM</span>
+                        <span class="skill-tag">K-Means Clustering</span>
+                        <span class="skill-tag">t-SNE</span>
+                        <span class="skill-tag">Cross-Validation</span>
+                        <span class="skill-tag">Permutation Testing</span>
+                        <span class="skill-tag">Feature Engineering</span>
+                        <span class="skill-tag">NLTK</span>
+                        <span class="skill-tag">textstat</span>
                     </div>
                 </div>
 
@@ -247,6 +291,7 @@
                         <span class="skill-tag">DNS</span>
                         <span class="skill-tag">ARP</span>
                         <span class="skill-tag">tcpdump</span>
+                        <span class="skill-tag">scapy</span>
                     </div>
                 </div>
 
@@ -269,44 +314,30 @@
                 </div>
 
                 <div class="skill-category">
-                    <h3>Testing</h3>
+                    <h3>Software QA & Testing</h3>
                     <div class="skill-tags">
+                        <span class="skill-tag">Test Automation</span>
+                        <span class="skill-tag">Test Plans</span>
+                        <span class="skill-tag">Unit Testing</span>
                         <span class="skill-tag">Pytest</span>
                         <span class="skill-tag">Selenium</span>
                         <span class="skill-tag">Postman</span>
                         <span class="skill-tag">SoapUI</span>
                         <span class="skill-tag">JMeter</span>
-                        <span class="skill-tag">Crash-Consistency Testing</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3>Agentic AI</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">LangGraph</span>
-                        <span class="skill-tag">Orchestration</span>
-                        <span class="skill-tag">ReAct Tool Calling</span>
-                        <span class="skill-tag">MCP</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>RAG</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Vector Embeddings</span>
-                        <span class="skill-tag">Weaviate</span>
-                        <span class="skill-tag">Arize Phoenix</span>
-                        <span class="skill-tag">OpenTelemetry</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Databases</h3>
+                    <h3>Databases & Data Pipelines</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">SQL</span>
                         <span class="skill-tag">PL/SQL (Oracle)</span>
                         <span class="skill-tag">Redis</span>
                         <span class="skill-tag">Kafka</span>
+                        <span class="skill-tag">TinyDB</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Data Ingestion Pipelines</span>
+                        <span class="skill-tag">GitHub API</span>
                     </div>
                 </div>
 
@@ -322,11 +353,13 @@
                 </div>
 
                 <div class="skill-category">
-                    <h3>Backend</h3>
+                    <h3>Web & Backend</h3>
                     <div class="skill-tags">
+                        <span class="skill-tag">REST APIs</span>
                         <span class="skill-tag">FastAPI</span>
                         <span class="skill-tag">Pydantic</span>
                         <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Streamlit</span>
                     </div>
                 </div>
 
@@ -522,6 +555,53 @@
                             <li>Designed <strong>parallel coordinates plot</strong> revealing multivariate relationships across 5 dimensions (emissions, renewables, GDP, energy, population)</li>
                             <li>Built <strong>radar chart</strong> scoring environmental performance based on renewable share, inverted CO2/energy usage, and GDP capacity</li>
                             <li>Key insights: High-income nations show declining emissions post-2010; small wealthy states lead per-capita emissions; strong regional disparities between Europe/North America vs. Africa/South America</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Predicting Student Summary Quality</h3>
+                        <div class="project-tech">Python, pandas, scikit-learn, NLTK, textstat</div>
+                    </div>
+                    <div class="project-body">
+                        <p>A regression project on the CommonLit "Evaluate Student Summaries" dataset, predicting how well a student's summary captures the content and wording of the prompt it's based on.</p>
+                        <ul>
+                            <li>Joined summaries with their source prompts in pandas, then engineered a set of <strong>handcrafted NLP features</strong> with NLTK and textstat: word and distinct-word counts, prompt overlap, length and sentence ratios, average sentence/word length, and a Flesch-Kincaid readability score</li>
+                            <li>Explored the data through histograms, scatter plots, and per-prompt distributions, finding content and wording scores <strong>strongly correlated (r ≈ 0.75)</strong>, and compared word frequencies between high- and low-scoring essays after stopword removal</li>
+                            <li>Modeled both scores in scikit-learn, moving from a 5-feature baseline Linear Regression (MSE 0.313 content / 0.489 wording) to a cleaned, log-scaled 11-feature version (0.225 / 0.366), with a <strong>100-tree Random Forest</strong> performing best overall (0.205 / 0.355)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Stock Price Movement Prediction</h3>
+                        <div class="project-tech">Python, scikit-learn, CatBoost, LightGBM, t-SNE</div>
+                    </div>
+                    <div class="project-body">
+                        <p>A machine learning project on Optiver's "Trading at the Close" dataset, using order-book data for 200 stocks to predict how much each stock's price is likely to move in the final minutes before market close.</p>
+                        <ul>
+                            <li>Cleaned the raw order-book data first, using <strong>z-score outlier detection</strong> on log-scaled features, replacing outliers with the mean and filling missing values with column means</li>
+                            <li>Explored how stocks relate to one another with a Pearson correlation heatmap, autocorrelation of daily average prices, and pairwise price distances between stocks</li>
+                            <li>Grouped stocks that behave similarly using <strong>K-Means clustering</strong>, then visualized the resulting clusters with t-SNE</li>
+                            <li>Zoomed in on the closing window specifically, examining how the WAP and the far/near prices converge as the close approaches, and confirmed the pattern was statistically significant with a permutation test on WAP variance</li>
+                            <li>Turned that into a <strong>prediction task</strong>, benchmarking Linear Regression, Random Forest, CatBoost, and LightGBM with 5-fold cross-validation. CatBoost performed best, with an MAE of about 5.19</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>CI/CD Pipeline for a FastAPI Service</h3>
+                        <div class="project-tech">Python, FastAPI, Docker, GitHub Actions, Ruff, Pytest</div>
+                    </div>
+                    <div class="project-body">
+                        <p>A small FastAPI app built mainly to practice setting up a full CI/CD pipeline around it with GitHub Actions and Docker.</p>
+                        <ul>
+                            <li>Built a simple <strong>Text Stats API</strong> with a health check and a <code>/stats</code> endpoint that returns word count, character counts, and the top N words in a given text</li>
+                            <li>Set up a <strong>CI workflow</strong> that lints with ruff and runs a pytest suite across Python 3.11 to 3.13 on every push</li>
+                            <li>Set up a <strong>CD workflow</strong> that builds a Docker image on each version tag and pushes it to GitHub Container Registry</li>
                         </ul>
                     </div>
                 </div>
