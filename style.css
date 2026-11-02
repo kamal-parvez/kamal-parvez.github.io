@@ -606,6 +606,18 @@ code {
     margin: 0 auto;
 }
 
+.project-group-title {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.project-group-title:not(:first-child) {
+    margin-top: 1.5rem;
+}
+
 .project-card {
     background-color: white;
     border-radius: 12px;
